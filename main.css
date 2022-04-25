@@ -24,12 +24,12 @@ header {
 
 }
 main{
-    align-self: flex-start;
+    
     background-color: rgb(245, 238, 238);
 }
 footer{
     border: 1px solid rgb(198, 210, 214);
-    align-content: flex-start;
+    
     background-color: rgb(46, 139, 139);
 }
 
