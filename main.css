@@ -16,4 +16,13 @@ header {
     align-items: center;
 
 }
+main{
+    align-self: auto;
+    background-color: whitesmoke;
+}
+footer{
+    border: 1px solid lightblue;
+    align-content: center;
+    background-color: azure;
+}
 
