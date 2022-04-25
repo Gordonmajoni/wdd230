@@ -8,9 +8,9 @@ header, main,footer{
 }
 header {
     margin: 1rem;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(123, 137, 141);
     padding: 5rem;
-    background-color: azure;
+    background-color: rgb(34, 146, 146);
     display:grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
@@ -18,11 +18,11 @@ header {
 }
 main{
     align-self: auto;
-    background-color: whitesmoke;
+    background-color: rgb(245, 238, 238);
 }
 footer{
-    border: 1px solid lightblue;
+    border: 1px solid rgb(198, 210, 214);
     align-content: center;
-    background-color: azure;
+    background-color: rgb(46, 139, 139);
 }
 
