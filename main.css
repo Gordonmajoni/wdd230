@@ -28,10 +28,12 @@ header {
 main{
     
     background-color: rgb(245, 238, 238);
+    margin: 1rem;
 }
 footer{
     border: 10px solid rgb(198, 210, 214);
     
     background-color: rgb(46, 139, 139);
+    margin: 1rem;
 }
 
