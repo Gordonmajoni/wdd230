@@ -1,0 +1,19 @@
+body{
+ font-size: 16px;
+}
+
+header, main,footer{
+    max-width: 700px;
+    margin: 0 auto;
+}
+header {
+    margin: 1rem;
+    border: 1px solid lightblue;
+    padding: 5rem;
+    background-color: azure;
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+
+}
+
