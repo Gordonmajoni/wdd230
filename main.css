@@ -11,8 +11,8 @@ body{
 
 header, main,footer{
     max-width: 700px;
-    margin: 0 auto;
     align-items: center;
+    
 }
 header {
     margin: 1rem;
