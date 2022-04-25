@@ -20,7 +20,7 @@ header {
     background-color: rgb(34, 146, 146);
     display:grid;
     grid-template-columns: 300px 1fr;
-    align-items: center;
+
 
 }
 main{
