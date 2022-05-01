@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+ font-size: 8px;
+}
+
+.header, main,footer{
+    max-width: 400px;
+    height:auto;
+    align-items: center;
+    grid-template-areas:
+     "header","header",
+    "main","main",
+    "footer","footer";
+}
+header {
+    margin: 1rem;
+    padding: 1rem;
+    background-color:darkblue;
+    grid-area: "title";
+    grid-template-columns: 1fr;
+    align-items: right;
+
+
+}
+main{
+    background-color: antiquewhite;
+    margin: 1rem;
+    grid-area: "main";
+}
+footer{
+    
+    background-color: darkblue;
+    margin: 1rem;
+    grid-area:"footer";
+}
+
