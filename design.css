@@ -2,7 +2,7 @@
 
 
 header,footer{
-    max-width:100%;
+    width:100%;
     height:auto;
     align-items: center;
     grid-template-areas:
@@ -18,33 +18,33 @@ header {
     align-items: center;
 }
 .title{
-    width: 200px;
+    width: 200;
     background-color: lightgrey;
     align-items: center;
 
 }
-body{
+main{
     font-size: 16px;
 }
 
 .contrast{
-    width: 200px;;
+    width: 200;
     margin: 0;
     grid-area: "contrast";
 }
 .thirds{
-    width: 200px;
+    width: 200;
     margin: 0;
     grid-area:"thirds" ;
 }
 .prox{
-    width: 200px;
+    width: 200;
     margin:0;
     grid-area: "prox";
 }
 footer{
     
-    
+    width: 200;
     margin: 1rem;
     padding: 1rem;
     background-color:lightgrey;
