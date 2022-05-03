@@ -1,8 +1,5 @@
 
 
-body{
- font-size: 16px;
-}
 
 header,footer{
     max-width:100%;
@@ -19,21 +16,29 @@ header {
     background-color:lightgrey;
     grid-area: "title";
     align-items: center;
-
+}
+.title{
+    width: 200px;
+    background-color: lightgrey;
+    align-items: center;
 
 }
+body{
+    font-size: 16px;
+}
+
 .contrast{
-    max-width:fit-content ;
+    width: 200px;;
     margin: 0;
     grid-area: "contrast";
 }
 .thirds{
-    max-width: fit-content;
+    width: 200px;
     margin: 0;
     grid-area:"thirds" ;
 }
 .prox{
-    max-width: fit-content;
+    width: 200px;
     margin:0;
     grid-area: "prox";
 }
