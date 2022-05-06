@@ -1,3 +1,2 @@
-document.lastModified
 
-document. querySelector("#lastUpdated").innerHTML = document.lastModified;
+document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
