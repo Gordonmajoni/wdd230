@@ -35,14 +35,14 @@ h2 {
 p {
 	padding: .5rem;
 }
-main picture{
+/*main picture{
 	display:none;
-}
+}*/
 
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
