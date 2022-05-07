@@ -53,7 +53,7 @@ main.site {
 	border: 1px solid #bbb;
 	padding: 5rem;
 	background-color: #eee;
-	
+	justify-self: center;
 
 }
 main.Audience {
