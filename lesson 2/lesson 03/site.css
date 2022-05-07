@@ -35,8 +35,8 @@ h2 {
 p {
 	padding: .5rem;
 }
-main picture{
-	display:none;
+main.image{
+	display: inline;
 }
 
 
@@ -56,6 +56,15 @@ main.site {
 	justify-self: center;
 
 }
+main.purpose {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+	justify-self: center;
+
+}
+
 main.Audience {
 	margin: 1rem;
 	border: 1px solid #bbb;
