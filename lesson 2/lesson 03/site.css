@@ -53,7 +53,8 @@ main.site {
 	margin: 1rem;
 	border: 1px solid #bbb;
 	padding: 1rem;
-	background-color: #eee;display: grid;
+	background-color: #eee;
+	display: grid;
 	grid-template-columns: 1fr 1fr ;
 	align-items: center;
 	justify-content: center;
