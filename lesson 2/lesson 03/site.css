@@ -36,18 +36,18 @@ p {
 	padding: .5rem;
 }
 main picture{
-	display:contents;
+	display:none;
 }
 
 
 
-main {
+/*main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
-}
+}*/
 
 main.site {
 	margin: 1rem;
