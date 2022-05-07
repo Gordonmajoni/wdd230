@@ -8,7 +8,7 @@ body {
 	font-family: "DM", sans-serif;
 }
 
-header,
+header,main,
 footer {
 	background-color: #708080;
 	display: flex;
@@ -40,25 +40,20 @@ main picture{
 }
 
 
-
-/*main {
+main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
-}*/
+}
 
 main.site {
 	margin: 1rem;
 	border: 1px solid #bbb;
-	padding: 1rem;
+	padding: 5rem;
 	background-color: #eee;
-	display: grid;
-	grid-template-columns: 1fr 1fr ;
-	align-items: center;
-	justify-content: center;
-	font-size: 0.85rem;
+	
 
 }
 main.Audience {
