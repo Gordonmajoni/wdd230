@@ -5,7 +5,7 @@
 }
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: "DM", sans-serif;
 }
 
 header,
@@ -40,13 +40,30 @@ p {
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
 }
 
-main {
+main.site {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+main.Audience {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}main.Typo {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+main.site {
 	margin: 1rem;
 	border: 1px solid #bbb;
 	padding: 1rem;
@@ -54,10 +71,6 @@ main {
 }
 
 
-main picture {
-	display: none;
-	margin: 1rem;
-}
 
 main article {
 	margin: 1rem;
