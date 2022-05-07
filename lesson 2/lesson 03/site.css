@@ -35,6 +35,9 @@ h2 {
 p {
 	padding: .5rem;
 }
+main picture{
+	display:contents;
+}
 
 
 
