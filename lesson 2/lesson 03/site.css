@@ -36,7 +36,7 @@ p {
 	padding: .5rem;
 }
 main.image{
-	display: inline;
+	display:none;
 }
 
 
@@ -53,7 +53,7 @@ main.site {
 	border: 1px solid #bbb;
 	padding: 1rem;
 	background-color: #eee;
-	justify-self: center;
+	
 
 }
 main.purpose {
@@ -61,7 +61,7 @@ main.purpose {
 	border: 1px solid #bbb;
 	padding: 1rem;
 	background-color: #eee;
-	justify-self: center;
+	
 
 }
 
