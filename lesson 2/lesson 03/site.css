@@ -54,7 +54,7 @@ main.site {
 	border: 1px solid #bbb;
 	padding: 1rem;
 	background-color: #eee;display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr ;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
