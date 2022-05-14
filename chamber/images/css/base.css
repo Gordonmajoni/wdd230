@@ -1,11 +1,20 @@
-header, footer{
+header{
+    background-color: #eee;
     max-width: auto;
-    box-sizing:flex;
+    display:flex;
     margin:0;
     padding:0;
 }
+.logo{
+    display:flex;
+    width: 80px;
+    height: auto;
+}
+
+
 nav button {
-    margin: .2rem 2vw;
+    display:inline-flex;
+    margin: 0;
     background: transparent;
     border: none;
     font-size: 2rem;
@@ -13,22 +22,33 @@ nav button {
 }
 
 
-nav{
+/*nav{
     background-color: #eee;
-}
+}*/
 nav ul{
+    
     list-style-type: none;
     padding: 0;
     margin:0;
 }
-main{
-    display:grid ;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: auto ;
+nav ul li{
 
+    display:inline-flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1rem;
+    color:whitesmoke;
 }
-footer{
+.social{
+    display:flex;
+    width: 80px;
+    height: auto;
+    
+}
 
-    margin:0;
-    padding: 0;
+footer{
+    justify-content: center;
+    justify-items: center;
+    background-color: #eee;
+    line-height: 60px;
 }
