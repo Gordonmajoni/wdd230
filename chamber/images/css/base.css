@@ -1,0 +1,34 @@
+header, footer{
+    max-width: auto;
+    box-sizing:flex;
+    margin:0;
+    padding:0;
+}
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+
+nav{
+    background-color: #eee;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+main{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto ;
+
+}
+footer{
+
+    margin:0;
+    padding: 0;
+}
