@@ -1,3 +1,12 @@
+body{
+    max-width: 900px;
+    max-height: fit-content;
+}
+
+
+
+
+
 header{
     background-color: #eee;
     max-width: auto;
@@ -7,13 +16,15 @@ header{
 }
 .logo{
     display:flex;
-    width: 80px;
+    width: 50px;
     height: auto;
 }
 
 
 nav button {
-    display:inline-flex;
+    display:flex;
+    position: relative;
+    left:800px;
     margin: 0;
     background: transparent;
     border: none;
@@ -28,24 +39,72 @@ nav button {
 nav ul{
     
     list-style-type: none;
+    text-decoration-line: none;
     padding: 0;
     margin:0;
 }
 nav ul li{
 
     display:inline-flex;
-    justify-content: center;
-    justify-items: center;
+    position: relative;
+    left:350px;
+    justify-content:space-evenly;
+    justify-items: space-between;
     font-size: 1rem;
     color:whitesmoke;
 }
 .social{
     display:flex;
-    width: 80px;
+    position: relative;
+    left:750px;
+    width: 40px;
     height: auto;
     
 }
+main{
+    display:grid;
+    grid-template-columns: 250px  400px 250px ;
+    grid-template-rows: 200px 1fr 1fr 200px;
+    justify-content: center;
+    justify-items: center; 
+    row-gap:  5px;
 
+}
+.weather{
+    
+    border: 1px solid #000;
+    grid-column:1/2;
+    grid-row:1/2;
+    padding:95px;
+    box-shadow:2px rgb(243, 26, 26);
+}
+.map{
+    border: 1px solid #000;
+    grid-column:1/2;
+    grid-row: 2/6;
+    padding:103px;
+}
+.image{
+    border:1px solid #000 ;
+    padding: 180px;
+    padding-bottom: 30px;
+    grid-column:2/3 ;
+    grid-row:1/6 ;
+}
+.infor{
+    border: 1px solid #000;
+    grid-column:3/4 ;
+    grid-row: 1/2;
+    padding:80px;
+
+}
+.contact{
+    
+    border: 1px solid #000;
+    grid-column: 3/4;
+    grid-row: 2/6;
+    padding:95px;
+}
 footer{
     justify-content: center;
     justify-items: center;
