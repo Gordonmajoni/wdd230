@@ -45,6 +45,7 @@ nav ul{
     text-decoration-line: none;
     padding: 0;
     margin:0;
+    
 }
 .HamButton{
     display: flex;
@@ -89,7 +90,7 @@ main{
 
 }
 .weather{
-    
+    padding-top: 50px;
     border: 1px solid #000;
     grid-column:1/2;
     grid-row:1/2;
