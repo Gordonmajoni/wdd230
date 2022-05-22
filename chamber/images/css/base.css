@@ -1,19 +1,40 @@
-header{
-    background-color: #eee;
-    max-width: auto;
-    display:flex;
-    margin:0;
+*{
+    margin: 0;
     padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 900px;
+    margin:0;
+    padding:5px;
+}
+
+header, footer{
+    background-color: #eee;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    padding:5px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 50px 1fr;
 }
 .logo{
-    display:flex;
-    width: 80px;
-    height: auto;
+    width: 50%;
+
+}
+.text{
+    grid-column:3/5 ;
+    grid-row: 1/2;
 }
 
 
-nav button {
-    display:inline-flex;
+.Hambutton{
+
     margin: 0;
     background: transparent;
     border: none;
@@ -31,24 +52,26 @@ nav ul{
     padding: 0;
     margin:0;
 }
-nav ul li{
-
-    display:inline-flex;
-    justify-content: center;
-    justify-items: center;
+.navlist{
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     color:whitesmoke;
 }
 .social{
-    display:flex;
-    width: 80px;
-    height: auto;
     
+    grid-column:3/4;
+    grid-row:1/2;
+    width:50%;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer{
     justify-content: center;
     justify-items: center;
     background-color: #eee;
-    line-height: 60px;
 }
