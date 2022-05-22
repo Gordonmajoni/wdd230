@@ -23,14 +23,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 70px 50px 1fr;
 }
-.logo{
-    width: 50%;
 
-}
-.text{
-    grid-column:3/5 ;
-    grid-row: 1/2;
-}
 
 
 .Hambutton{
@@ -58,16 +51,11 @@ nav ul{
     font-size: 1rem;
     color:whitesmoke;
 }
-.social{
-    
-    grid-column:3/4;
-    grid-row:1/2;
-    width:50%;
-    
-}
+
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto ;
 }
 
 footer{
