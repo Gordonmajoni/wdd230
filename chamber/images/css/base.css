@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
+
 
 body{
     max-width: 900px;
@@ -16,7 +12,7 @@ header, footer{
     flex-flow: column;
     justify-content: center;
     justify-items: center;
-    padding:5px;
+    padding: 8px;
 }
 header{
     display: grid;
@@ -50,11 +46,31 @@ nav ul{
     padding: 0;
     margin:0;
 }
-.navlist{
+.HamButton{
     display: flex;
-    flex-direction: column;
+    position:relative;
+    top:-100px;
+}
+.nav li a{
+    display: flex;
+    position: relative;
+    top:-200px;
+    
     font-size: 1rem;
-    color:whitesmoke;
+    color:blue;
+}
+.logo{
+    display: flex;
+    position:relative;
+    padding-left: 400px;
+}
+.text{
+    display: block;
+    position: relative;
+    justify-content: center;
+    top: -70px;
+    padding-left: 370px;
+    line-height: 1px;
 }
 
 main{
@@ -98,6 +114,13 @@ main{
     grid-column:3/4 ;
     grid-row: 1/2;
     padding:80px;
+
+}
+.social{display: flex;
+    position:relative;
+    padding-left: 800px;
+    top:-250px;
+
 
 }
 .contact{
