@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     max-width: 900px;
     max-height: fit-content;
@@ -12,10 +13,24 @@ header{
     max-width: auto;
     display:flex;
     margin:0;
+=======
+*{
+    margin: 0;
+>>>>>>> 20c947cfd3d62dd95fb1a8cf72ae47750aa57ebb
     padding:0;
+    box-sizing: border-box;
 }
-.logo{
+
+body{
+    max-width: 900px;
+    margin:0;
+    padding:5px;
+}
+
+header, footer{
+    background-color: #eee;
     display:flex;
+<<<<<<< HEAD
     width: 50px;
     height: auto;
 }
@@ -25,6 +40,23 @@ nav button {
     display:flex;
     position: relative;
     left:800px;
+=======
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    padding:5px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 50px 1fr;
+}
+
+
+
+.Hambutton{
+
+>>>>>>> 20c947cfd3d62dd95fb1a8cf72ae47750aa57ebb
     margin: 0;
     background: transparent;
     border: none;
@@ -43,6 +75,7 @@ nav ul{
     padding: 0;
     margin:0;
 }
+<<<<<<< HEAD
 nav ul li{
 
     display:inline-flex;
@@ -60,6 +93,19 @@ nav ul li{
     width: 40px;
     height: auto;
     
+=======
+.navlist{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color:whitesmoke;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto ;
+>>>>>>> 20c947cfd3d62dd95fb1a8cf72ae47750aa57ebb
 }
 main{
     
@@ -109,7 +155,11 @@ main{
 footer{
     justify-content: center;
     justify-items: center;
+<<<<<<< HEAD
     background-color:goldenrod;
     line-height: 60px;
     padding-left: 200px;
+=======
+    background-color: #eee;
+>>>>>>> 20c947cfd3d62dd95fb1a8cf72ae47750aa57ebb
 }
