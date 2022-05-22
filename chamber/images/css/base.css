@@ -27,6 +27,10 @@ header{
 
 
 .Hambutton{
+    display: flex;
+    position: relative;
+    top:-250px;
+    left:800px;
 
     margin: 0;
     background: transparent;
