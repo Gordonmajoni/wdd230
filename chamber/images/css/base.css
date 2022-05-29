@@ -1,138 +1,80 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
 body{
-    max-width: 900px;
+
     margin:0;
-    padding:5px;
+    padding:0;
 }
 
-header, footer{
-    background-color:goldenrod;
-    display:flex;
-    flex-flow: column;
+header, main , footer{
+
+    display:grid;
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-rows:auto 1fr max-content;
     justify-content: center;
     justify-items: center;
-    padding: 8px;
-}
-header{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 70px 50px 1fr;
-}
-
-
-
-.Hambutton{
-    display: flex;
-    position: relative;
-    top:-250px;
-    left:800px;
-
-    margin: 0;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
-}
-
-
-/*nav{
-    background-color: #eee;
-}*/
-nav ul{
+    border:1px solid black;
     
+}
+header, footer{
+    background-color: goldenrod;
+    justify-content: space-between;
+    justify-items: center;
+}
+nav{
+    display:flex;
+    background-color: gold;
+
+}
+li {
+    display: inline-table;
+    left:-100px;
     list-style-type: none;
-    text-decoration-line: none;
-    padding: 0;
-    margin:0;
-    
-}
-.HamButton{
-    display: flex;
-    position:relative;
-    top:-100px;
-}
-.nav li a{
-    display: flex;
-    position: relative;
-    top:-200px;
-    
-    font-size: 1rem;
-    color:blue;
-}
-.logo{
-    display: flex;
-    position:relative;
-    padding-left: 400px;
-}
-.text{
-    display: block;
-    position: relative;
+    justify-items: space-evenly;
     justify-content: center;
-    top: -70px;
-    padding-left: 370px;
-    line-height: 1px;
-}
-
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:auto ;
 }
 main{
-    
-    display:grid;
-    grid-template-columns: 250px  400px 250px ;
-    grid-template-rows: 200px 1fr 1fr 200px;
-    justify-content: center;
-    justify-items: center; 
-    row-gap:  5px;
-
+    border:1px solid #000;
 }
 .weather{
-    padding-top: 50px;
-    border: 1px solid #000;
-    grid-column:1/2;
-    grid-row:1/2;
-    padding:95px;
-    box-shadow:2px rgb(243, 26, 26);
-}
-.map{
-    border: 1px solid #000;
-    grid-column:1/2;
-    grid-row: 2/6;
-    padding:103px;
-}
-.image{
-    border:1px solid #000 ;
-    padding: 180px;
-    padding-bottom: 30px;
-    grid-column:2/3 ;
-    grid-row:1/6 ;
+    display: grid;
+    border:1px solid #000;
+    width: 250px;
+    height:250px;
+    position: relative;
 }
 .infor{
-    border: 1px solid #000;
-    grid-column:3/4 ;
-    grid-row: 1/2;
-    padding:80px;
-
-}
-.social{display: flex;
-    position:relative;
-    padding-left: 800px;
-    top:-250px;
-
+    width: 250px;
+    height: 250px;
+    display:grid;
+    border:1px solid #000;
 
 }
 .contact{
-    
-    border: 1px solid #000;
-    grid-column: 3/4;
-    grid-row: 2/6;
-    padding:95px;
+    width: 250px;
+    height: 250px;
+    display:grid;
+    border:1px solid #000;
+
 }
-footer{
-    justify-content: center;
-    justify-items: center;
-    background-color:goldenrod;
+.image{
+    width:350px;
+    height: 500px;
+    display: grid;
+    border:1px solid #000;
+}
+
+.map{
+
+    width: 250px;
+    height: 250px;
+    display:grid;
+    border:1px solid #000;
+
+
 }
