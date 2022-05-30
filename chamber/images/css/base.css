@@ -26,63 +26,95 @@ header, footer{
     justify-content: space-between;
     justify-items: center;
 }
-nav{
+nav {
+    width:100%;
     display:flex;
     justify-content: center;
     justify-items: space-between;
-
     background-color: gold;
 
 }
 
 
 li {
-    display: flex;
+    
     justify-items:center;
     display: inline-table;
     left:-100px;
     list-style-type: none;
     justify-content: center;
     font-size: 20px;
+    gap:20px;
 }
 main{
+    margin:1rem;
+    box-shadow: 5px 5px 5px 5px;
+
+
     border:1px solid #000;
+    background-color: blanchedalmond;
 }
 .weather{
     display: grid;
+    margin-left:2rem;
     border:1px solid #000;
     width: 250px;
     height:250px;
+    margin-top: 1rem;
     position: relative;
+    box-shadow: 5px 5px 5px 5px;
+
     
 }
 .infor{
     width: 250px;
     height: 250px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     display:grid;
     border:1px solid #000;
+    padding:1rem; 
+    box-shadow: 5px 5px 5px 5px;
+
+    
 
 }
 .contact{
+    position: relative;
+    left:100%;
     width: 250px;
     height: 250px;
+    margin-top: 1rem;
     display:grid;
     border:1px solid #000;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px 5px;
+
 
 }
 .image{
-    width:350px;
+    position: relative;
+    left:-80%;
+    width:450px;
     height: 500px;
+    margin-top: 1rem;
     display: grid;
     border:1px solid #000;
+    box-shadow: 5px 5px 5px 5px;
+
 }
 
 .map{
-
+    position: relative;
+    left:100%;
     width: 250px;
     height: 250px;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
     display:grid;
     border:1px solid #000;
+    padding:1rem ;
+    box-shadow: 5px 5px 5px 5px;
 
 
 }
