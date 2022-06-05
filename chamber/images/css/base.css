@@ -96,8 +96,8 @@ main{
 .image{
     position: relative;
     left:-80%;
-    width:450px;
-    height: 774px;
+    width:400px;
+    height: 450px;
     margin-top: 1rem;
     display: grid;
     border:1px solid #000;
