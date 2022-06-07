@@ -36,7 +36,7 @@ nav {
 }
 
 
-li {
+ul li {
     
     justify-items:center;
     display: inline-table;
