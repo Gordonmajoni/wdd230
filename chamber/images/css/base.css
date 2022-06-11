@@ -117,11 +117,12 @@ main{
     padding:1rem ;
     box-shadow: 5px 5px 5px 5px;
 
-
 }
+
+
 /*-------------join form-----------*/
-main{
-    margin:auto ;
+main {
+    margin:0;
     padding: 6px;
 }
 form fieldset{
@@ -159,6 +160,8 @@ form label.level{
     color:black;
 }
 form input.submitBtn{
+    position: relative;
+    top:-750px;
     border: none;
     background-color:goldenrod;
     color: whitesmoke;
@@ -168,11 +171,24 @@ form input.submitBtn{
     width:96%;
     max-width:  20rem;
 }
-
-
-  
+#about{
+    padding:0;
+}
+.leftside{
+    display:flex;
+    position: relative;
+    top: -840px;
+    left:500px;
+}
+.spotlit{
+    padding: .75rem;
+    color: black;
+    background-color: whitesmoke;
+}
 
 footer{
+    position: relative;
+    top:-700px;
     justify-content: center;
     justify-items: space-between;
 
