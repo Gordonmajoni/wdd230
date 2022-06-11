@@ -118,6 +118,13 @@ main{
     box-shadow: 5px 5px 5px 5px;
 
 }
+footer{
+
+    justify-content: center;
+    justify-items: space-between;
+
+}
+
 
 
 /*-------------join form-----------*/
@@ -186,10 +193,3 @@ form input.submitBtn{
     background-color: whitesmoke;
 }
 
-footer{
-    position: relative;
-    top:-700px;
-    justify-content: center;
-    justify-items: space-between;
-
-}
