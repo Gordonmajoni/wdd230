@@ -9,7 +9,7 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
     prophets.forEach(displayProphets);
   });
-  
+
   function displayProphets(prophet) {
     // Create elements to add to the document
     let card = document.createElement('section');
@@ -17,3 +17,4 @@ fetch(requestURL)
     let birthDate = document.createElement('p');
     let birthPlace = document.createElement('p');
     let portrait = document.createElement('img');
+  };
