@@ -5,5 +5,15 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);
+    const prophets = jsonObject['prophets'];
+    prophets.forEach(displayProphets);
   });
+  
+  function displayProphets(prophet) {
+    // Create elements to add to the document
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let birthDate = document.createElement('p');
+    let birthPlace = document.createElement('p');
+    let portrait = document.createElement('img');
