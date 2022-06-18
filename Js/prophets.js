@@ -31,7 +31,7 @@ function buildProphetCards(data){
   });
 }
 
-getProphets();
+  getProphets();
 
 
 
