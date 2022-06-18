@@ -1,36 +1,36 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
+  .then(response=>response.json()) 
+    
+  .then(data => console.log(data));
     const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
-  });
+    data.prophets.forEach(data);
 
-  function displayProphets(prophet) {
-    // Create elements to add to the document
+  function displayProphets(data) {
+    // Create elements to add to the document 
+    data.prophets.forEach(prophet=>{
+  
+
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let birthDate = document.createElement('p');
-    let birthPlace = document.createElement('p');
-    let portrait = document.createElement('img');
+    let p = document.createElement('p');
+    
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    ____.setAttribute('src', prophet.imageurl);
-    ____.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
-    ____.setAttribute('loading', 'lazy');
+    img.setAttribute('src',${prophet.imageurl});
+    h2.innerHTML=`location of birth:${birthplace}`;
+    p.innerHTML='alt', `Prophet  ${prophet.name} ${prophet.lastname}`;
+    img.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(portrait);
-  
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
-  }
+    card.append(h2);
+    card.appendChild(p);
+    card.append(img);
+    card.append(card);
 
+  })}
 
+getProphets();
 
 
 
