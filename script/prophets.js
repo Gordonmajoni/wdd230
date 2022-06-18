@@ -6,7 +6,10 @@ async function getProphets(){
   if(response.ok){
     let data = await response.json();
     buildProphetCards();
+  }else{
+    throw  error(response.statusText)
   }
+
 }
 function buildProphetCards(data){
   data.prophets.forEach(prophet => {
@@ -30,8 +33,7 @@ function buildProphetCards(data){
 
   });
 }
-
-  getProphets();
+getProphets();
 
 
 
