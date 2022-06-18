@@ -18,7 +18,7 @@ function buildProphetCards(data){
     
     h2.innerHTML=`location of birth:${birthplace}`;
     p.innerHTML='alt', `Prophet  ${prophet.name} ${prophet.lastname}`;
-    img.setAttribute('src', `${prophet.imageurl}`);
+    img.setAttribute('src', prophet.imageurl);
 
     img.setAttribute('loading', 'lazy');
   
