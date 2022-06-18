@@ -5,7 +5,7 @@ footer {
   position: relative;
 }
 
-.class {
+.cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
@@ -19,7 +19,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  section > p {
+  section  {
     min-height: 60px;
   }
   
