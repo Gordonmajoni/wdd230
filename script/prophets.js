@@ -1,17 +1,17 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const URL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
 async function getProphets(){
-  let response = await fetch(requestURL);
+  let response = await fetch(URL);
   if(response.ok){
     let data = await response.json();
-    console.log(data);
-    buildProphetCards();
-  }else{
+    //console.log(data);
+    buildProphetCards(data);
+  } else{
     throw  error(response.statusText)
   }
 
-}
+
 function buildProphetCards(data){
   data.prophets.forEach(prophet => {
     let card = document.createElement('section');
