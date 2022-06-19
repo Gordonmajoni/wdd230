@@ -10,6 +10,7 @@ async function getProphets(){
   } else{
     throw  error(response.statusText)
   }
+}
 
 
 function buildProphetCards(data){
@@ -35,4 +36,4 @@ function buildProphetCards(data){
   });
 }
 getProphets();
-}
+
