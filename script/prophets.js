@@ -18,7 +18,7 @@ function buildProphetCards(data){
     let h2 = document.createElement('h2');
     let p = document.createElement('p');
     
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute .
     
     h2.innerHTML=`location of birth:${birthplace}`;
     p.innerHTML='alt', `Prophet  ${prophet.name} ${prophet.lastname}`;
