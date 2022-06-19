@@ -5,6 +5,7 @@ async function getProphets(){
   let response = await fetch(requestURL);
   if(response.ok){
     let data = await response.json();
+    console.log(data);
     buildProphetCards();
   }else{
     throw  error(response.statusText)
