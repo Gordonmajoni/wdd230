@@ -35,8 +35,4 @@ function buildProphetCards(data){
   });
 }
 getProphets();
-
-
-
-
-
+}
