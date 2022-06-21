@@ -10,10 +10,12 @@ footer {
   position: relative;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+
+div.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
   
   section {
     margin: 0.25rem;
