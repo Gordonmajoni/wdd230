@@ -22,16 +22,16 @@ function buildProphetCards(data){
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute .
     
     h2.innerHTML=`${prophet.name} ${prophet.lastname}`;
-    //p.innerHTML= `birthplace:${prophet.birthplace}`;
-   // img.setAttribute('src', prophet.imageurl);
+    p.innerHTML= `birthplace:${prophet.birthplace}`;
+    img.setAttribute('src', prophet.imageurl);
 
-  //  img.setAttribute('loading', 'lazy');
+    img.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
     card.append(h2);
-    //card.appendChild(p);
-    //card.append(img);
-    card.append(cards);
+    card.appendChild(p);
+    card.append(img);
+    cards.append(card);
 
  });
 }
