@@ -23,8 +23,8 @@ header, main , footer{
 }
 header, footer{
     background-color: goldenrod;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
+
 }
 nav {
     width:100%;
@@ -59,65 +59,61 @@ main{
     display: grid;
     margin-left:2rem;
     border:1px solid #000;
-    width: 250px;
-    height:250px;
+    width: 275px;
     margin-top: 1rem;
     position: relative;
-    box-shadow: 5px 5px 5px 5px;
+    box-sizing: content-box;
     padding-left: 2px;
+    justify-content: center;
+    background-color:cadetblue;
 
 }
 
 .infor{
-    width: 200px;
-    height: 300px;
+    width: 275px;
     margin-bottom: 1rem;
     margin-left: 2rem;
-    display:grid;
     border:1px solid #000;
-    padding:1rem; 
-    box-shadow: 5px 5px 5px 5px;
-
+    padding: 0; 
+    box-sizing:content-box;
+    text-align:center;
+    background-color: cadetblue;
     
 
 }
 .contact{
     position: relative;
     left:100%;
-    width: 200px;
-    height: 300px;
+    width: 300px;
     margin-top: 1rem;
-    display:grid;
     border:1px solid #000;
-    padding: 1rem;
-    box-shadow: 5px 5px 5px 5px;
+    padding: 0;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: cadetblue;
 
 
 }
 .image{
     position: relative;
     left:-80%;
-    width:300px;
-    height: 400px;
+    width:auto;
     margin-top: 1rem;
-    display: grid;
     border:1px solid #000;
-    box-shadow: 5px 5px 5px 5px;
+    box-sizing: content-box;
 
 }
 
 .map{
     position: relative;
     left:100%;
-    width: 200px;
-    height: 300px;
+    width: 300px;
     margin-bottom: 1rem;
-    margin-right: 2rem;
-    display:grid;
     border:1px solid #000;
-    padding:1rem ;
-    box-shadow: 5px 5px 5px 5px;
-
+    padding:0;
+    box-sizing:content-box;
+    text-align: center;
+    background-color: cadetblue;
 }
 footer{
 
@@ -130,7 +126,7 @@ footer{
 
 /*-------------join form-----------*/
 main {
-    margin:0;
+    margin:3px;
     padding: 6px;
 }
 form fieldset{
@@ -193,4 +189,34 @@ form input.submitBtn{
     color: black;
     background-color: whitesmoke;
 }
+/*----------------conatct--------------*/
 
+.contact{
+    position: relative;
+    left:-350px;
+    top: 60px;
+    text-align:left;
+    box-shadow: 2px 2px;
+    border:1px solid #000;
+    box-sizing:content-box;
+    padding: 2px;
+}
+.lorem{
+    position: relative;
+    right:-950px;
+    top:-100px;
+    box-shadow: 2px 2px;
+    border:1px solid #000;
+    box-sizing:content-box;
+    background-color: cadetblue;
+}
+.picture{
+
+    position: relative;
+    align-content: center;
+    right:-100px;
+}
+h3{
+    
+    text-decoration-line: underline;
+}
