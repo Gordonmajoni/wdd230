@@ -200,6 +200,7 @@ form input.submitBtn{
     border:1px solid #000;
     box-sizing:content-box;
     padding: 2px;
+    background-color: cadetblue;
 }
 .lorem{
     position: relative;
