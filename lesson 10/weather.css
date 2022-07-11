@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    align-content: center;
+}
+h1,h2, footer{
+    color:blue;
+}
