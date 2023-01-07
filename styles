@@ -8,5 +8,13 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: 18px;
+	font-size: 14px;
+}
+header{
+	background-color: dimgray;
+	font: 16px;
+
+}
+footer{
+	background-color: dimgray;
 }
