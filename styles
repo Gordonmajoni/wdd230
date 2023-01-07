@@ -14,6 +14,7 @@ header{
 	display: flex;
 	align-items: center;
 	align-content:center;
+	border-radius: 12px;
 	background-color: dimgray;
 	font: 16px;
 
@@ -23,4 +24,5 @@ footer{
 	align-content:center ;
 	align-items: center;
 	background-color: dimgray;
+	border-radius: 6px;
 }
