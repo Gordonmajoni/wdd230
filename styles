@@ -11,10 +11,16 @@ body {
 	font-size: 14px;
 }
 header{
+	display: flex;
+	align-items: center;
+	align-content:center;
 	background-color: dimgray;
 	font: 16px;
 
 }
 footer{
+	display: flex;
+	align-content:center ;
+	align-items: center;
 	background-color: dimgray;
 }
