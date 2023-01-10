@@ -16,6 +16,8 @@ header{
 	background-color: dimgray;
 	font: 16px;
 	padding: 5px;
+	padding: left 5px; 
+	padding-right: 5px;
 
 }
 footer{
@@ -25,4 +27,7 @@ footer{
 	background-color: dimgray;
 	border-radius: 6px;
 	padding: 5px;
+	padding: left 5px; 
+	padding-right: 5px;
+
 }
