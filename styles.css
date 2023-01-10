@@ -15,6 +15,7 @@ header{
 	border-radius: 12px;
 	background-color: dimgray;
 	font: 16px;
+	padding: 5px;
 
 }
 footer{
@@ -23,4 +24,5 @@ footer{
 	align-items: center;
 	background-color: dimgray;
 	border-radius: 6px;
+	padding: 5px;
 }
