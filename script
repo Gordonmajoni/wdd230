@@ -1,6 +1,0 @@
-const date = new Date(currentdate);
-const [month, day, year] = [
-  date.getMonth(),
-  date.getDate(),
-  date.getFullYear(),
-]
