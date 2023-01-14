@@ -5,6 +5,7 @@ header{
     display:flex;
     align-items: center;
     border-radius: 15px;
+    background-color: grey;
 }
 body{
     grid-template-columns: 1fr 1fr;
@@ -23,6 +24,7 @@ footer{
     display: flex;
     align-content: center;
     border-radius: 15px;
+    background-color: grey;
 }
 /*medium css media query*/
 @media screen and(min-width: 32.5em){

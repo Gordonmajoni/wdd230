@@ -5,6 +5,7 @@ header{
     display: flex;
     align-items: center;
     border-radius: 15px;
+    background-color: grey;
 }
 body{
     grid-template-columns: 1fr;
@@ -23,4 +24,5 @@ footer{
     border-radius: 15px;
     display: flex;
     align-content: center;
+    background-color: grey;
 }
