@@ -1,7 +1,7 @@
 header{
     color: blue;
     font-family: sans-serif;
-    font: 16px;
+    font-size: small;
     display: flex;
 }
 body{
