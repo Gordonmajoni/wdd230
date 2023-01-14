@@ -1,5 +1,6 @@
 
-body{
+body{	
+	font-family: 'Sofia Sans', sans-serif;
 	/*max-width: 500px;*/
 	display: flex;
 	flex-direction: column;
@@ -8,6 +9,8 @@ body{
 	font-size: 14px;
 }
 header{
+	font-family: 'Roboto', sans-serif;
+
 	/*max-width: 500px;*/
 	display: flex;
 	align-items: center;
@@ -20,7 +23,8 @@ header{
 	padding-right: 10px;
 
 }
-footer{
+footer{	
+	font-family: 'Roboto', sans-serif;
 	display: flex;
 	align-content:center ;
 	align-items: center;
