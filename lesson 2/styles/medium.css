@@ -1,0 +1,21 @@
+header{
+    color: blue;
+    font-family: sans-serif;
+    font: 16px;
+    display:flex;
+}
+body{
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    color: blue;
+    font-family: sans-serif;
+    font: 16px;
+    display: flex;
+}
+/*medium css media query*/
+@media screen and(min-width: 32.5em){
+    
+}
+    
