@@ -21,7 +21,7 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 .document{
-    display: flex;
+    display: inline-block;
     border: 1px black;
     align-content:center ;
 }

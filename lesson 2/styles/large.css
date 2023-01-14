@@ -20,7 +20,7 @@ body{
 }
 .document{
     align-items: center;
-    display: flex;
+    display: inline-block;
     border: 1px black;
 }
 

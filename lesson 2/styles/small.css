@@ -23,7 +23,7 @@ body{
     
 }
 .document{
-    display: flex;
+    display: inline-block;
     border: 1px black;
     align-content: center;
 }
