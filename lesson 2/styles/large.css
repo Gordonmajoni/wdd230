@@ -7,6 +7,11 @@ header{
 body{
     grid-template-columns: 1fr 1fr 1fr;
 }
+.document{
+    display: flex;
+    border: 1px black;
+}
+
 
 footer{
     color: blue;

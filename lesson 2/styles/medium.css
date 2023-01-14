@@ -7,6 +7,11 @@ header{
 body{
     grid-template-columns: 1fr 1fr;
 }
+.document{
+    display: flex;
+    border: 1px black;
+}
+
 
 footer{
     color: blue;
@@ -16,6 +21,6 @@ footer{
 }
 /*medium css media query*/
 @media screen and(min-width: 32.5em){
-    
+
 }
     
