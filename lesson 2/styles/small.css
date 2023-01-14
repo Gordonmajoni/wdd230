@@ -10,13 +10,13 @@
 
 
 header{
-    color: blue;
+    color:whitesmoke;
     font-family: sans-serif;
     font: 16px;
     display: flex;
     align-items: center;
     border-radius: 15px;
-    background-color: grey;
+    background-color: blue;
 }
 body{
     grid-template-columns: 1fr;
@@ -29,11 +29,11 @@ body{
 }
 
 footer{
-    color: blue;
+    color: whitesmoke;
     font-family: sans-serif;
     font: 16px;
     border-radius: 15px;
     display: flex;
     align-content: center;
-    background-color: grey;
+    background-color: blue;
 }

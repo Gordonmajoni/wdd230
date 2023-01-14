@@ -7,13 +7,13 @@
 
 
 header{
-    color: blue;
+    color:whitesmoke ;
     font-family: sans-serif;
-    font-size: small;
+    font-size: 10px;
     display: flex;
     align-items: center;
-    border-radius: 15px;
-    background-color: grey;
+    border-radius: 30px;
+    background-color:blue;
 }
 body{
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,13 +26,13 @@ body{
 
 
 footer{
-    color: blue;
+    color:whitesmoke;
     font-family: sans-serif;
     font: 16px;
     display: flex;
     align-content: center;
     border-radius: 15px;
-    background-color: grey;
+    background-color:blue;
 }
 
 
