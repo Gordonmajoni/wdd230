@@ -3,6 +3,8 @@ header{
     font-family: sans-serif;
     font: 16px;
     display:flex;
+    align-items: center;
+    border-radius: 15px;
 }
 body{
     grid-template-columns: 1fr 1fr;
@@ -10,6 +12,7 @@ body{
 .document{
     display: flex;
     border: 1px black;
+    align-content:center ;
 }
 
 
@@ -18,6 +21,8 @@ footer{
     font-family: sans-serif;
     font: 16px;
     display: flex;
+    align-content: center;
+    border-radius: 15px;
 }
 /*medium css media query*/
 @media screen and(min-width: 32.5em){
