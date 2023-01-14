@@ -1,4 +1,4 @@
-@media screen and (min-width: 32.5em){
+@media only screen and (min-width: 32.5em){
     header, footer {
         font-size: 20px;
         color: goldenrod;
