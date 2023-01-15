@@ -14,9 +14,7 @@ header{
     align-items: center;
     background-color:blue;
 }
-body{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 .document{
     align-items: center;
     display: block;
@@ -36,6 +34,9 @@ footer{
 
 
 /*media query large css*/
-@media screen and(min-width: 60em){
+@media only screen and(min-width: 60em){
+    body{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 

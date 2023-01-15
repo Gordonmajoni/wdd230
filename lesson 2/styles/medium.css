@@ -16,9 +16,7 @@ header{
     align-items: center;
     background-color:blue;
 }
-body{
-    grid-template-columns: 1fr 1fr;
-}
+
 .document{
     display: block;
     border: 1px black;
@@ -35,7 +33,11 @@ footer{
     background-color:blue;
 }
 /*medium css media query*/
-@media screen and(min-width: 32.5em){
+@media only screen and(min-width: 32.5em){
+    body{
+    grid-template-columns: 1fr 1fr;
+}
+
 
 }
     
