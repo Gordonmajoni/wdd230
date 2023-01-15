@@ -15,7 +15,6 @@ header{
     font: 16px;
     display: flex;
     align-items: center;
-    border-radius: 15px;
     background-color: blue;
 }
 body{
@@ -23,7 +22,7 @@ body{
     
 }
 .document{
-    display: inline-block;
+    display:block;
     border: 1px black;
     align-content: center;
 }
@@ -32,7 +31,6 @@ footer{
     color: whitesmoke;
     font-family: sans-serif;
     font: 16px;
-    border-radius: 15px;
     display: flex;
     align-content: center;
     background-color: blue;
