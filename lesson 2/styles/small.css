@@ -1,7 +1,10 @@
 
-
+body{
+    max-width: 320px;
+}
 
 header{
+
     color:whitesmoke;
     font-family: sans-serif;
     font: 16px;
