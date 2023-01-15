@@ -9,10 +9,6 @@ header{
     align-items: center;
     background-color: blue;
 }
-body{
-    grid-template-columns: 1fr;
-    
-}
 .document{
     display:block;
     border: 1px black;
