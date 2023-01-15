@@ -28,7 +28,7 @@ footer{
 }
 @media  only screen  and (min-width: 28em){
     body{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 }
