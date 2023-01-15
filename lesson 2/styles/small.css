@@ -10,7 +10,7 @@ header{
     background-color: blue;
 }
 .document{
-    display:block;
+    display:inline-block ;
     border: 1px black;
     align-content: center;
 }
