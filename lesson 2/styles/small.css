@@ -1,9 +1,11 @@
 
-body{
-    max-width: 320px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 header{
+    width: 100%;
 
     color:whitesmoke;
     font-family: sans-serif;
@@ -12,8 +14,8 @@ header{
     align-items: center;
     background-color: blue;
 }
-.document{
-    display:inline-block ;
+.byu{
+    display:block ;
     border: 1px black;
     align-content: center;
 }
@@ -25,10 +27,4 @@ footer{
     display: flex;
     align-content: center;
     background-color: blue;
-}
-@media  only screen  and (min-width: 28em){
-    body{
-    grid-template-columns: 1fr;
-}
-
 }
