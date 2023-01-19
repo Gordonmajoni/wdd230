@@ -38,7 +38,7 @@ nav{
     background-color: navy;
     text-decoration: none;
 }
-nav a{
+nav a li{
     display: block;
     color: white;
     text-align: center;
