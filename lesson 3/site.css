@@ -14,7 +14,7 @@ header,
 footer{
     background-color: grey;
     display:block;
-    flex-flow:row;
+    flex-flow:column;
     align-items: center;
     justify-content: center;
     padding:5px;
