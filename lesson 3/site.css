@@ -49,6 +49,7 @@ nav a:hover{
     color: brown;
 }
 footer{
+    line-height: 50px;
     display: flex;
     justify-content:center;
     font-size: 13px;
