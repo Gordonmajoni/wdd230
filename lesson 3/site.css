@@ -34,7 +34,6 @@ h2{
 nav{
     display: flex;
     flex-direction: column;
-    flex: auto;
     background-color: navy;
     text-decoration: none;
 }
