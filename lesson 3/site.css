@@ -21,7 +21,7 @@ footer{
 }
 header,nav,body,footer{
     max-width: 960px;
-    margin: 10px;
+    margin:0 auto;
 }
 h1{
     font-size: 3rem;
