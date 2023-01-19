@@ -12,7 +12,7 @@ body{
 header,
 footer{
     background-color: grey;
-    display: flex;
+    display:block;
     flex-flow: column;
     align-items: center;
     justify-content: center;
