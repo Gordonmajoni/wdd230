@@ -35,6 +35,7 @@ nav{
     flex-direction: column;
     flex: auto;
     background-color: navy;
+    text-decoration: none;
 }
 nav a{
     display: block;
