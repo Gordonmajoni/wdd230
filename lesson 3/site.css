@@ -14,10 +14,10 @@ header,
 footer{
     background-color: grey;
     display:block;
-    flex-flow: column;
+    flex-flow:row;
     align-items: center;
     justify-content: center;
-    padding: auto;
+    padding:5px;
 }
 header,nav,body,footer{
     max-width: 960px;
