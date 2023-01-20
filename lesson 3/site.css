@@ -24,8 +24,9 @@ header,nav,body,footer{
     margin:0 auto;
 }
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
+    text-align: center;
 }
 h2{
     padding: auto;
@@ -36,6 +37,7 @@ nav{
     flex-direction: column;
     background-color: navy;
     text-decoration: none;
+    max-width: 100%;
 }
 nav a {
     display: block;
