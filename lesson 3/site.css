@@ -20,7 +20,7 @@ footer{
     padding:5px;
 }
 header,nav,body,footer{
-    max-width: 960px;
+    max-width:100%;
     margin:0 auto;
 }
 h1{
