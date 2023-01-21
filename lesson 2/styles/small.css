@@ -5,7 +5,7 @@
 }
 
 header{
-    width: 100%;
+    width: 768px;
 
     color:whitesmoke;
     font-family: sans-serif;
@@ -13,6 +13,10 @@ header{
     display: flex;
     align-items: center;
     background-color: blue;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .byu{
     display:block ;

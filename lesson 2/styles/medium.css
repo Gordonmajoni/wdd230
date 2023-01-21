@@ -32,7 +32,7 @@ footer{
 }
 /*medium css media query*/
 @media only screen and(min-width: 32.5em){
-    body{
+    main{
     grid-template-columns: 1fr 1fr;
 }
 

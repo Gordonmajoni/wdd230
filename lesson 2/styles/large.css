@@ -33,7 +33,7 @@ footer{
 
 /*media query large css*/
 @media only screen and(min-width: 60em){
-    body{
+    main{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
