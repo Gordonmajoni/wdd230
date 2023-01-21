@@ -42,7 +42,7 @@ nav{
     text-decoration: none;
     max-width: 100%;
 }
-nav li a {
+nav a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -51,6 +51,9 @@ nav li a {
 }
 nav a:hover{
     color: brown;
+}
+li{
+    display: inline;
 }
 p{
     padding: 5px 20px;
@@ -64,7 +67,7 @@ footer{
 }
 /*media Queries for the larger view*/
 @media only screen and(min-width: 37.5em) {
-    nav li a{
+    nav a{
         align-items: center;
         flex-direction:row;
         display: block;
