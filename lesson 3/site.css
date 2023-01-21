@@ -37,12 +37,12 @@ h2{
 }
 nav{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     background-color: navy;
     text-decoration: none;
     max-width: 100%;
 }
-nav a {
+nav li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -64,9 +64,9 @@ footer{
 }
 /*media Queries for the larger view*/
 @media only screen and(min-width: 37.5em) {
-    nav a{
+    nav li a{
         align-items: center;
-        flex-direction:column;
+        flex-direction:row;
         display: block;
     }
     
