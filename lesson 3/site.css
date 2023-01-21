@@ -43,7 +43,7 @@ nav{
     max-width: 100%;
 }
 nav a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     text-decoration: none;
