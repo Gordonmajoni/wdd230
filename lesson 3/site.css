@@ -54,6 +54,8 @@ nav a:hover{
 }
 li{
     display: inline;
+    text-align: center;
+    justify-items: center;
 }
 p{
     padding: 5px 20px;
