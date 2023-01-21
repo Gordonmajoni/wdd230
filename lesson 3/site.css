@@ -37,7 +37,7 @@ h2{
 }
 nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: navy;
     text-decoration: none;
     max-width: 100%;
@@ -64,8 +64,9 @@ footer{
 }
 /*media Queries for the larger view*/
 @media only screen and(min-width: 37.5em) {
-    nav{
-        flex-direction:row;
+    nav a{
+        align-items: center;
+        flex-direction:column;
         display: block;
     }
     
