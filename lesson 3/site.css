@@ -73,7 +73,10 @@ footer{
     nav {
         align-items: center;
         flex-direction:row;
-        display: block;
+        display:inline;
+    }
+    li{
+        display: inline;
     }
     
 } 
