@@ -8,7 +8,7 @@ body{
     font-family: Roboto,sans-serif;
     border: 1px solid black;
     background-color: #eee;
-    min-height: 500px;
+    
 }
 header,
 footer{
@@ -42,8 +42,9 @@ nav{
     text-decoration: none;
     max-width: 100%;
 }
-nav a {
-    display: inline-block;
+li a {
+    display: block;
+    padding: 10px;
     color: white;
     text-align: center;
     text-decoration: none;
