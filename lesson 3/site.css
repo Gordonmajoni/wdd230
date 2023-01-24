@@ -32,7 +32,7 @@ h1{
     flex-flow: column;
 }
 h2{
-    padding: auto;
+    padding: 5px;
     color: black;
 }
 nav{
@@ -69,14 +69,13 @@ footer{
     color: #eee;
 }
 /*media Queries for the larger view*/
-@media only screen and(min-width: 37.5em) {
-    nav {
+@media only screen and (min-width: 37.5em) {
+    nav 
+    {
         align-items: center;
-        flex-direction:row;
-        display:inline;
-    }
-    li{
+        flex-direction: row;
         display: inline;
     }
+    
     
 } 
