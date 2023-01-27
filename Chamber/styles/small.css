@@ -16,10 +16,40 @@ nav ul li a{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: auto;
+    justify-content: start;
+    height:30px;
 }
+#event{
+    background-color: bisque;
+    border: 1px solid black;
+    display:flex;
+    justify-content: start;
+    height:30px;
+}
+#weather{
+    background-color: bisque;
+    border: 1px solid black;
+    display:flex;
+    justify-content: start;
+    height:30px;
+}
+#news{background-color: bisque;
+    border: 1px solid black;
+    display:flex;
+    justify-content: start;
+    height:30px;
+}
+#sport{
+    background-color: bisque;
+    border: 1px solid black;
+    display:flex;
+    justify-content: start;
+    height:30px;
+}  
+
+
+}
+
 footer{
     background-color: grey;
     display: flex;
