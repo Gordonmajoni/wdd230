@@ -1,12 +1,18 @@
-body{
-    margin: 0;
-    padding: 0 auto;
-}
+
+
 header{
     background-color: grey;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+#hero{
+    background-color: bisque;
+    border: 1px solid black;
+    display:flex;
+    justify-content: flex-start;
+    width: 450px;
+    height: auto;
 }
 footer{
     background-color: grey;
