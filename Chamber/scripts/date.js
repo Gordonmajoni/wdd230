@@ -9,5 +9,5 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 // output current date
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+datefield.innerHTML = `${fulldate}`;
 
