@@ -9,3 +9,4 @@ const [hour, minutes, seconds] = [
   date.getMinutes(),
   date.getSeconds(),
 ];
+document.querySelector`${date}`;
