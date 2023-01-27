@@ -7,7 +7,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
 
-// output date
+// output current date
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
