@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0 auto;
+}
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
