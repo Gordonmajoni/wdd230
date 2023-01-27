@@ -6,6 +6,12 @@ header{
     justify-content: center;
     align-content: center;
 }
+nav ul li{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
 #hero{
     background-color: bisque;
     border: 1px solid black;
