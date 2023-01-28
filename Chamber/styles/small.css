@@ -33,7 +33,8 @@ nav ul li a{
     justify-content: start;
     height:30px;
 }
-#news{background-color: bisque;
+#news{
+    background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
