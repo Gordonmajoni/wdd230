@@ -11,7 +11,7 @@ header{
     justify-items: start;
 }
 nav ul li a{
-    display: flex;
+    display: inline;
     flex-direction: inline;
     text-decoration: none;
     justify-content: center;
