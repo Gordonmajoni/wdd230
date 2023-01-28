@@ -6,6 +6,10 @@ header{
     justify-content: center;
     align-content: center;
 }
+.logo{
+    display: flex;
+    justify-items: start;
+}
 nav ul li a{
     display: flex;
     display: inline;
