@@ -1,4 +1,4 @@
-const date = new Date();
+
 const [month, day, year] = [
   date.getMonth(),
   date.getDate(),
@@ -9,4 +9,3 @@ const [hour, minutes, seconds] = [
   date.getMinutes(),
   date.getSeconds(),
 ];
-document.querySelector`${date}`;
