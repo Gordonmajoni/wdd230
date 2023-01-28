@@ -12,7 +12,7 @@ header{
 }
 nav ul li a{
     display: flex;
-    display: inline;
+    flex-direction: inline;
     text-decoration: none;
     justify-content: center;
     align-content: center;
@@ -26,6 +26,7 @@ main{
     display:flex;
     justify-content: start;
     height:auto;
+    padding: 10px;
 }
 #event{
     background-color: bisque;
