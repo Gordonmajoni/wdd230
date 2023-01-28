@@ -13,40 +13,44 @@ nav ul li a{
     justify-content: center;
     align-content: center;
 }
+main{
+    max-height: 542;
+}
 #hero{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
-    height:30px;
+    height:auto;
 }
 #event{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
-    height:30px;
+    height:auto;
+    
 }
 #weather{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
-    height:30px;
+    height:auto;
 }
 #news{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
-    height:30px;
+    height:auto;
 }
 #sport{
     background-color: bisque;
     border: 1px solid black;
     display:flex;
     justify-content: start;
-    height:30px;
+    height:auto;
 }  
 
 
