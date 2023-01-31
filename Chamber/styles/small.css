@@ -11,12 +11,13 @@ header{
     justify-items: start;
 }
 li{
-    display:block;
+    display:flex;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
 }
 nav ul li a{
-    display: inline;
+    display: flex;
     flex-direction: inline;
     text-decoration: none;
     justify-content: center;
