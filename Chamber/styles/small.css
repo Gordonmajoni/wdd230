@@ -28,6 +28,7 @@ nav{
 }
 ul{
     display:inline-flex;
+    text-decoration: none;
 }
 li a{
     display:flex;
