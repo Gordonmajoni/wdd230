@@ -10,6 +10,11 @@ header{
     display: flex;
     justify-items: start;
 }
+li{
+    display:block;
+    justify-content: center;
+    align-content: center;
+}
 nav ul li a{
     display: inline;
     flex-direction: inline;
