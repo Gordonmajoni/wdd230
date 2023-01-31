@@ -12,13 +12,13 @@ header{
 }
 li{
     display:flex;
-    flex-direction: row;
+    flex-direction: block;
     justify-content: center;
     align-content: center;
 }
 nav ul li a{
     display: flex;
-    flex-direction: inline;
+    flex-direction: block;
     text-decoration: none;
     justify-content: center;
     align-content: center;
