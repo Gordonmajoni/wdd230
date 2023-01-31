@@ -21,18 +21,16 @@ header{
     
     display: flex;
     flex-direction: inline;
+    justify-content: baseline;
     text-decoration: none;
     justify-content: center;
     align-content: center
 
 }
-ul{
-    display:inline-flex;
-    text-decoration: none;
-}
 li a{
     display:flex;
     flex-direction: block;
+    text-decoration: none;
     justify-content: center;
     align-content: center;
 }
