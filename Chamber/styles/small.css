@@ -20,7 +20,7 @@ header{
 .main{
     
     display: flex;
-    flex-direction: block;
+    flex-direction: inline;
     text-decoration: none;
     justify-content: center;
     align-content: center
