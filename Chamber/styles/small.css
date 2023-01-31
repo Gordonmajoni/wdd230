@@ -7,22 +7,21 @@ header{
     align-content: center;
 }
 nav{
+    
     display: flex;
+    flex-direction: block;
+    text-decoration: none;
     justify-content: center;
+    align-content: center
+
 }
-li{
+li a{
     display:flex;
     flex-direction: block;
     justify-content: center;
     align-content: center;
 }
-nav ul{
-    display: flex;
-    flex-direction: block;
-    text-decoration: none;
-    justify-content: center;
-    align-content: center;
-}
+
 main{
     max-height:auto;
 }
