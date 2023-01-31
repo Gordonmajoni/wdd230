@@ -6,6 +6,17 @@ header{
     justify-content: center;
     align-content: center;
 }
+.logo{
+    display: flex;
+    flex-direction: start;
+}
+.face{
+    align-content: flex-end;
+}
+.icon8{
+    align-content: flex-end;
+}
+
 nav{
     
     display: flex;
@@ -14,6 +25,9 @@ nav{
     justify-content: center;
     align-content: center
 
+}
+ul{
+    display:inline-flex;
 }
 li a{
     display:flex;
@@ -49,7 +63,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
-    gap: 10px;px;
+    gap: 10px;
 }
 #news{
     background-color: bisque;
