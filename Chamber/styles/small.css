@@ -45,7 +45,8 @@ main{
     justify-content: start;
     height:auto;
     padding: 50px;
-    gap: 5px;
+    margin: 10px;
+
 }
 #event{
     background-color: bisque;
@@ -53,7 +54,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
-    gap:5px;
+    margin: 10px;
     
 }
 #weather{
@@ -62,7 +63,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
-    gap: 10px;
+    margin: 10px;
 }
 #news{
     background-color: bisque;
@@ -70,7 +71,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
-    gap:10px;
+    margin:10px;
 }
 #sport{
     background-color: bisque;
@@ -78,7 +79,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
-    gap: 10px;
+    margin: 10px;
 }  
 
 
@@ -89,4 +90,5 @@ footer{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 15px;
 }
