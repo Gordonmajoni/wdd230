@@ -34,6 +34,7 @@ main{
     justify-content: start;
     height:auto;
     padding: 50px;
+    gap: 5px;
 }
 #event{
     background-color: bisque;
@@ -41,6 +42,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
+    gap:5px;
     
 }
 #weather{
@@ -49,6 +51,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
+    gap:5px;
 }
 #news{
     background-color: bisque;
@@ -63,6 +66,7 @@ main{
     display:flex;
     justify-content: start;
     padding: 50px;
+    gap:5px;
 }  
 
 
