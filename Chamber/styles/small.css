@@ -90,6 +90,7 @@ main{
 }  
 .adress{
     background-color: grey;
+    display: flex;
     justify-content: center;
 }
 
