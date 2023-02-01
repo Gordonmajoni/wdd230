@@ -88,6 +88,10 @@ main{
     padding: 50px;
     margin: 10px;
 }  
+.adress{
+    background-color: grey;
+    justify-content: center;
+}
 
 
 
