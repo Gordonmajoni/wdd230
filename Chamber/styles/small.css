@@ -89,7 +89,7 @@ main{
     margin: 10px;
 }  
 .one .two{
-    padding: 25px;
+    padding: 20px;
     border: 1px solid black;
     display:flex;
     flex-direction: column;
