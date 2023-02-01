@@ -29,6 +29,11 @@ header{
     align-content: center
 
 }
+nav button{
+    background-color: transparent;
+     border: none;
+     font-size: 2rem;
+}
 li a{
     display:flex;
     flex-direction: block;
