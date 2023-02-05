@@ -9,6 +9,6 @@ date1.innerHTML = new Date().getMonth();
 
 // Getting the last modified date
 
-const date2 = document.querySelector("#date2");
+const date1 = document.querySelector("#date1");
 
-date2.innerHTML = new Date(document.lastModified).toLocaleDateString("en-US");
+date1.innerHTML = new Date(document.lastModified).toLocaleDateString("en-US");
