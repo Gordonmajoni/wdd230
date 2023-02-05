@@ -8,6 +8,12 @@ header{
     justify-content: center;
     align-content: center;
 }
+.headdate{
+    padding: 5px;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+}
 .logo{
     display: flex;
     flex-direction: start;
